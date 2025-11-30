@@ -1,19 +1,13 @@
 @media (max-width: 481px) {
-  h1:nth-of-type(1) {
-    display: block;
-  }
+  h1:nth-of-type(1) { display: block; }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  h1:nth-of-type(2) {
-    display: block;
-  }
+  h1:nth-of-type(2) { display: block; }
 }
 
-@media (max-width: 1025px) {
-  h1:nth-of-type(3) {
-    display: block;
-  }
+@media (min-width: 1025px) {
+  h1:nth-of-type(3) { display: block; }
 }
 
 html,
@@ -36,7 +30,6 @@ body {
 }
 
 header {
-  background: rgba(255, 255, 255, 0);
   z-index: 10;
   text-align: center;
   padding-top: 30px;
@@ -58,9 +51,10 @@ nav {
 }
 
 nav ul {
-  list-style: none;
+list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -85,7 +79,6 @@ footer {
   padding: 0;
   background-color: #0c2c0ddc;
   color: white;
-  place-content: bottom;
 }
 
 form {
@@ -119,7 +112,6 @@ button:hover {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 
 .header-text h1 {
