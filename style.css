@@ -42,13 +42,14 @@ header {
 
 main {
   max-width: 800px;
-  margin: 20px auto;
+  margin: auto;
   padding: 10px;
   flex: 1;
 }
 
 nav {
   background-color: #0c2c0ddc;
+  width: 100%;
 }
 
 nav ul {
