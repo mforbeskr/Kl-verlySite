@@ -11,14 +11,6 @@
       display: block;
     }
   }
-  .header-container {
-    flex-direction: column; /* Stack images and text */
-    gap: 10px;
-  }
-  nav ul {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
