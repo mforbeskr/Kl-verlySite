@@ -18,9 +18,6 @@
   }
   .header-text h1 {
     font-size: clamp(2rem, 5vw, 4rem);
-    h1:nth-of-type(1) {
-      display: block;
-    }
   }
 }
 
@@ -141,7 +138,6 @@ header {
   letter-spacing: 4px;
   font-weight: 700;
   background: linear-gradient(90deg, #0f180be7, #a7fa0293);
-  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   margin-top: 30px;
